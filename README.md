@@ -1,33 +1,45 @@
 # Final-Project-Laravel
 
 
-Berikut adalah contoh plan project dalam bahasa Indonesia yang dapat dituliskan di README GitHub Anda:
 
-Rencana Proyek: Website Tampilkan Produk Swalayan
-Gambaran Proyek
-Proyek ini bertujuan untuk membuat sebuah website sederhana yang menampilkan produk-produk swalayan. Website ini akan memiliki dua komponen utama: produk dan kategori, dengan relasi one-to-many. Proyek ini juga mencakup operasi CRUD (Create, Read, Update, Delete) untuk mengelola produk dan kategori, yang akan dilakukan melalui php artisan tinker untuk interaksi langsung dengan database.
+## Gambaran Proyek
+Proyek ini bertujuan untuk membuat sebuah website sederhana yang menampilkan produk-produk swalayan. Website ini akan memiliki dua komponen utama: produk dan kategori, 
+dengan relasi one-to-many. Proyek ini juga mencakup operasi CRUD (Create, Read, Update, Delete) untuk mengelola produk dan kategori, yang akan dilakukan melalui php artisan 
+tinker untuk interaksi langsung dengan database.
 
-Fitur Utama:
-Tampilan produk-produk swalayan beserta kategorinya.
-Dua tabel utama dalam database: products dan categories.
-Seeder untuk mengisi data contoh menggunakan Faker.
-Operasi CRUD akan dilakukan menggunakan php artisan tinker.
-Struktur Tabel
-1. Tabel: Produk (products)
-Atribut:
-id (Primary Key)
-name (Nama produk)
-category_id (Foreign Key yang mengacu pada tabel categories)
-stock (Jumlah produk yang tersedia)
-expired_at (Tanggal kadaluarsa produk)
-2. Tabel: Kategori (categories)
-Atribut:
-id (Primary Key)
-name (Nama kategori)
-slug (Versi URL-friendly dari nama kategori)
-Relasi:
+<br>
+
+## Fitur Utama:
+- Tampilan produk-produk swalayan beserta kategorinya.
+- Dua tabel utama dalam database: products dan categories.
+- Seeder untuk mengisi data contoh menggunakan Faker.
+- Operasi CRUD akan dilakukan menggunakan php artisan tinker.
+
+<br>
+
+## Struktur Tabel
+  1. Tabel: Produk (products)
+    Atribut:
+    - id (Primary Key)
+    - name (Nama produk)
+    - category_id (Foreign Key yang mengacu pada tabel categories)
+    - stock (Jumlah produk yang tersedia)
+    - expired_at (Tanggal kadaluarsa produk)
+  2. Tabel: Kategori (categories)
+    Atribut:
+    - id (Primary Key)
+    - name (Nama kategori)
+    - slug (Versi URL-friendly dari nama kategori)
+
+<br>
+     
+## Relasi:
 One-to-Many: Setiap produk hanya dapat memiliki satu kategori, sedangkan satu kategori dapat memiliki banyak produk.
 Langkah-Langkah Implementasi:
+
+<br>
+
+
 1. Setup Database
 Definisikan dua tabel (products dan categories) dengan atribut dan relasi yang sesuai.
 Gunakan Laravel migrations untuk membuat tabel-tabel ini.
