@@ -19,7 +19,7 @@ tinker untuk interaksi langsung dengan database.
 
 ## Struktur Tabel
 
-1. - Tabel: Produk (products) <br>
+1. - Tabel: Produk (products) 
    - Atribut:
       - id (Primary Key)
       - name (Nama produk)
@@ -30,7 +30,7 @@ tinker untuk interaksi langsung dengan database.
 
      <br>
      
-2. - Tabel: Kategori (categories) <br>
+2. - Tabel: Kategori (categories) 
    - Atribut:
       - id (Primary key)
       - name (Nama kategori)
