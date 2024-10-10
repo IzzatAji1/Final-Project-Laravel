@@ -19,7 +19,7 @@ tinker untuk interaksi langsung dengan database.
 
 ## Struktur Tabel
 
-1. Tabel: Produk (products) <n>
+1. Tabel: Produk (products) <br>
    Atribut:
    - id (Primary Key)
    - name (Nama produk)
@@ -27,7 +27,7 @@ tinker untuk interaksi langsung dengan database.
    - stock (Jumlah produk yang tersedia)
    - expired_at (Tanggal kadaluarsa produk
      
-2. Tabel: Kategori (categories) <n>
+2. Tabel: Kategori (categories) <br>
    Atribut:
    - id (Primary key)
    - name (Nama kategori)
