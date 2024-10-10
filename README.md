@@ -19,29 +19,28 @@ tinker untuk interaksi langsung dengan database.
 
 ## Struktur Tabel
 
-1. Tabel: Produk (products) <br>
-   Atribut:
-   - id (Primary Key)
-   - name (Nama produk)
-   - category_id (Foreign key yang mengacu pada tabel categories)
-   - stock (Jumlah produk yang tersedia)
-   - expired_at (Tanggal kadaluarsa produk
+1. - Tabel: Produk (products) <br>
+   - Atribut:
+      - id (Primary Key)
+      - name (Nama produk)
+      - category_id (Foreign key yang mengacu pada tabel categories)
+      - stock (Jumlah produk yang tersedia)
+      - expired_at (Tanggal kadaluarsa produk
      
-2. Tabel: Kategori (categories) <br>
-   Atribut:
-   - id (Primary key)
-   - name (Nama kategori)
-   - slug (URL-friendly dari nama kategori)
+2. - Tabel: Kategori (categories) <br>
+   - Atribut:
+      - id (Primary key)
+      - name (Nama kategori)
+      - slug (URL-friendly dari nama kategori)
 
 <br>
      
 ## Relasi:
 One-to-Many: Setiap produk hanya dapat memiliki satu kategori, sedangkan satu kategori dapat memiliki banyak produk.
-Langkah-Langkah Implementasi:
 
 <br>
 
-
+Langkah-Langkah Implementasi:
 1. Setup Database
 Definisikan dua tabel (products dan categories) dengan atribut dan relasi yang sesuai.
 Gunakan Laravel migrations untuk membuat tabel-tabel ini.
