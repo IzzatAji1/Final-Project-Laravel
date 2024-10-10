@@ -27,7 +27,6 @@ tinker untuk interaksi langsung dengan database.
       - stock (Jumlah produk yang tersedia)
       - expired_at (Tanggal kadaluarsa produk
 
-     <br>
      
 2. - Tabel: Kategori (categories) 
    - Atribut:
