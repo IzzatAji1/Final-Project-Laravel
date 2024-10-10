@@ -46,7 +46,7 @@ One-to-Many: Setiap produk hanya dapat memiliki satu kategori, sedangkan satu ka
 1. Setup Database
    - Definisikan dua tabel (products dan categories) dengan atribut dan relasi yang sesuai.
    - Gunakan Laravel migrations untuk membuat tabel-tabel ini.
-   - 
+
 <br>
 
 2. Model
