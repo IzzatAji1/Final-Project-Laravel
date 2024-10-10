@@ -46,18 +46,14 @@ One-to-Many: Setiap produk hanya dapat memiliki satu kategori, sedangkan satu ka
 1. Setup Database
    - Definisikan dua tabel (products dan categories) dengan atribut dan relasi yang sesuai.
    - Gunakan Laravel migrations untuk membuat tabel-tabel ini.
-<br>
 2.  Model
    - Buat model Product dan Category.
    - Definisikan relasi belongsTo pada model Product dan relasi hasMany pada model Category.
-<br>
 3. Database Seeding dengan Faker
    - Gunakan fitur seeder Laravel untuk secara otomatis menghasilkan dan memasukkan data contoh ke dalam tabel products dan categories.
    - Gunakan Faker untuk membuat nama produk, stok, tanggal kadaluarsa, dan kategori secara acak.
-<br>
 4.  Operasi CRUD dengan Artisan Tinker
    - Lakukan operasi Create, Read, Update, dan Delete menggunakan php artisan tinker untuk pengujian cepat.
-<br>
 5. Pengujian dan Pengembangan
    - Uji seeder untuk memastikan data dimasukkan dengan benar.
    - Uji operasi CRUD menggunakan tinker untuk memastikan fungsionalitas.
