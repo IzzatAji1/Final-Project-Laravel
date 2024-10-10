@@ -18,13 +18,6 @@ tinker untuk interaksi langsung dengan database.
 <br>
 
 ## Struktur Tabel
-  1. Tabel: Produk (products)
-    Atribut:
-    - id (Primary Key)
-    - name (Nama produk)
-    - category_id (Foreign Key yang mengacu pada tabel categories)
-    - stock (Jumlah produk yang tersedia)
-    - expired_at (Tanggal kadaluarsa produk)
 
 1. Tabel: Produk (products)
    Atribut:
@@ -39,14 +32,6 @@ tinker untuk interaksi langsung dengan database.
    - id (Primary key)
    - name (Nama kategori)
    - slug (URL-friendly dari nama kategori)
-
-  
-     
-  4. Tabel: Kategori (categories)
-    Atribut:
-    - id (Primary Key)
-    - name (Nama kategori)
-    - slug (Versi URL-friendly dari nama kategori)
 
 <br>
      
