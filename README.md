@@ -26,6 +26,9 @@ tinker untuk interaksi langsung dengan database.
       - category_id (Foreign key yang mengacu pada tabel categories)
       - stock (Jumlah produk yang tersedia)
       - expired_at (Tanggal kadaluarsa produk
+
+
+     <br>
      
 2. - Tabel: Kategori (categories) <br>
    - Atribut:
