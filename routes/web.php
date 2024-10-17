@@ -12,14 +12,15 @@ Route::get('/', function () {
 });
 
 Route::get('/products', function () {
-    return view('products', [
+    return view('products.index', [
         'title' => 'Product', 'products' => Product::latest()->paginate(9)->withQueryString()
     ]);
 });
 
 Route::get('/products/category/{category:slug}', function (Category $category) {
+
     // Mengambil produk terkait dengan kategori yang dipilih
-    return view('products', [
+    return view('products.index', [
         'title' => 'Category product: ' . $category->name,
         'products' => $category->products()->paginate(9), // Menyertakan paginasi jika perlu
     ]);
