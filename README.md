@@ -4,8 +4,7 @@
 
 ## Gambaran Proyek
 Proyek ini bertujuan untuk membuat sebuah website sederhana yang menampilkan produk-produk swalayan. Website ini akan memiliki dua komponen utama: produk dan kategori, 
-dengan relasi one-to-many. Proyek ini juga mencakup operasi CRUD (Create, Read, Update, Delete) untuk mengelola produk dan kategori, yang akan dilakukan melalui php artisan 
-tinker untuk interaksi langsung dengan database.
+dengan relasi one-to-many. Proyek ini juga mencakup operasi CRUD (Create, Read, Update, Delete) untuk mengelola produk dan kategori yang dapat langsung dilakukan melalui websitenya dengan interaksi langsung dengan databasenya.
 
 <br>
 
@@ -13,7 +12,7 @@ tinker untuk interaksi langsung dengan database.
 - Tampilan produk-produk swalayan beserta kategorinya.
 - Dua tabel utama dalam database: products dan categories.
 - Seeder untuk mengisi data contoh menggunakan Faker.
-- Operasi CRUD akan dilakukan menggunakan php artisan tinker.
+- Operasi CRUD yang dilakukan pada websitenya.
 
 <br>
 
@@ -62,7 +61,14 @@ One-to-Many: Setiap produk hanya dapat memiliki satu kategori, sedangkan satu ka
   <br>
   
   4. Operasi CRUD dengan Artisan Tinker
-     - Lakukan operasi Create, Read, Update, dan Delete menggunakan php artisan tinker untuk pengujian cepat.
+     - Buat Controller: ProductController untuk mengelola CRUD produk.
+     - Definisikan Route: Gunakan slug untuk operasi Create, Read, Update, dan Delete.
+     - Implementasi CRUD:
+        - Create: Tampilkan formulir dan simpan produk baru.
+        - Read: Daftar dan detail produk berdasarkan slug.
+        - Update: Edit produk dan perbarui informasi menggunakan slug.
+        - Delete: Hapus produk berdasarkan slug.
+
        
   <br>
   
