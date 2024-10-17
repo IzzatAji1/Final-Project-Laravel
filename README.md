@@ -73,6 +73,8 @@ One-to-Many: Setiap produk hanya dapat memiliki satu kategori, sedangkan satu ka
   <br>
   
   5. Pengujian dan Pengembangan
-     - Uji seeder untuk memastikan data dimasukkan dengan benar.
-     - Uji operasi CRUD menggunakan tinker untuk memastikan fungsionalitas.
+     - Uji Seeder: Jalankan seeder untuk memverifikasi data kategori dan produk.
+     - Uji CRUD: Uji fungsi Create, Read, Update, dan Delete melalui antarmuka.
+     - Debugging: Perbaiki masalah yang muncul selama pengujian.
+
 
