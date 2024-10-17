@@ -78,4 +78,19 @@ One-to-Many: Setiap produk hanya dapat memiliki satu kategori, sedangkan satu ka
      - Debugging: Perbaiki masalah yang muncul selama pengujian.
 
 
+UI Web
+
+Page Home
+![image](https://github.com/user-attachments/assets/7294dbbf-eadf-4739-9605-6fdd66b038ac)
+
+Page Product
+![image](https://github.com/user-attachments/assets/8a32d8d8-8cf7-41af-a835-b5b2407738b9)
+
+Page Single Product
+![image](https://github.com/user-attachments/assets/f5291493-8141-4057-87fa-9fff0450ce8d)
+
+Page Edit Product
+![image](https://github.com/user-attachments/assets/dd6fc4ee-a59f-4919-99b4-1ff78fc476ad)
+
+
 Link Youtube : https://youtu.be/irdso7DvrYA
